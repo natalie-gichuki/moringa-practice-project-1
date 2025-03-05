@@ -1,15 +1,16 @@
 body{
-    height: 200vh;
+    height: 100vh;
     background: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
     background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/33/bd/46/caption.jpg?w=1200&amp;h=-1&amp;s=1);
     
 }
 
-.container{
-    display: grid;
+#container{
+    
     height: 1200px;
     width: 880px;
     background-color: rgb(231, 225, 225);
