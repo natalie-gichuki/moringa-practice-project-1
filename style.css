@@ -10,7 +10,9 @@ body{
 }
 
 .container{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 1200px;
     width: 880px;
     background-color: rgb(231, 225, 225);
@@ -138,7 +140,7 @@ footer{
     background-color: rgb(47, 47, 92);
     height: 900px;
     width: 700px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top: 100px;
     color: rgb(199, 193, 186);
     border: 5px solid rgb(54, 53, 53);
