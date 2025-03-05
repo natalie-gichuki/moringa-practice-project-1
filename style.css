@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    height: 200vh;
     background: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,16 +10,13 @@ body{
 }
 
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     height: 1200px;
     width: 880px;
     background-color: rgb(231, 225, 225);
     opacity: 0.9;
     
-    
+    margin-top: 100px;
     margin-left: 200px; 
     
     border: 10px solid black;
@@ -33,12 +30,14 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: row;
+   
     
     
 }
 
 a{
     margin-left: 20px;
+    
 }
 
 a.log{
@@ -141,8 +140,8 @@ footer{
     background-color: rgb(47, 47, 92);
     height: 900px;
     width: 700px;
-    margin-left: 30px;
-    margin-top: 100px;
+    margin-left: 80px;
+    margin-top: 70px;
     color: rgb(199, 193, 186);
     border: 5px solid rgb(54, 53, 53);
 }
