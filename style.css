@@ -10,13 +10,13 @@ body{
 }
 
 .container{
-    display: grid;
+    
     height: 1200px;
     width: 880px;
     background-color: rgb(231, 225, 225);
     opacity: 0.9;
     
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 200px; 
     
     border: 10px solid black;
@@ -60,6 +60,7 @@ button:hover{
 
 .child-container{
     text-align: center;
+
 }
 
 span{
@@ -110,9 +111,10 @@ img{
     font-style: oblique;
 }
 
-footer{
+.service-end{
     text-align: center;
 }
+
 
 .intro{
     text-align: center;
@@ -166,6 +168,7 @@ footer{
 footer p{
     margin-top: 25px;
     color: black;
+    text-align: center;
 }
 
 .price{
@@ -187,8 +190,10 @@ footer p{
 }
 
 footer.foot{
+    text-align: center;
     margin-top: 100px;
 }
+
 
 .contact-form {
     display: grid;
