@@ -1,0 +1,231 @@
+body{
+    height: 200vh;
+    background: fixed;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/33/bd/46/caption.jpg?w=1200&amp;h=-1&amp;s=1);
+}
+
+.container{
+    height: 1200px;
+    width: 900px;
+    background-color: rgb(231, 225, 225);
+    opacity: 0.9;
+    
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    border: 10px solid black;
+   
+}
+
+nav{
+    background-color: rgb(136, 128, 128);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin-left: 20px;
+}
+
+a.log{
+    margin-left: 500px;
+    
+}
+
+a.child:hover{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: green;
+    font-size: 15px;
+}
+
+.child-container{
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    color: indigo;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+.rooms{
+    text-align: center;
+}
+
+.room{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    margin-left: 25px;
+}
+
+.food{
+    text-align: center;
+}
+
+.fun{
+    text-align: center;
+}
+
+.end{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+footer{
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+}
+
+.pic{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.welcome{
+    margin-bottom: 100px;
+}
+
+.home{
+    margin-top: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.about{
+    background-color: rgb(47, 47, 92);
+    height: 900px;
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: rgb(199, 193, 186);
+    border: 5px solid rgb(54, 53, 53);
+}
+
+.who{
+    text-align: center;
+    margin-bottom: 50px;
+}
+ 
+.about img{
+    float: left;
+}
+
+.about img.image{
+    float: right;
+}
+
+.about img.con{
+    float: left;
+}
+
+footer p{
+    margin-top: 25px;
+    color: black;
+}
+
+.price{
+    text-align: center;
+}
+
+.price h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: inherit;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.price p{
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+footer.foot{
+    margin-top: 100px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    padding: 20px;
+}
+
+.contact-form .name-info input{
+    height: 40%;
+    width: 40%;
+    margin-bottom: 1.1rem;
+    padding: 10px;
+}
+
+.contact-form .contact-info input{
+    height: 40%;
+    width: 40%;
+    margin-bottom: 1.1rem;
+    padding: 10px;
+}
+
+.contact-form .text textarea{
+    height: 40%;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.contact-form .submit button{
+    height: 40px;
+    width: 91%;
+}
+
+.contact-form .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-details{
+    text-align: center;
+}
+
+.contact-details .children ul li{
+    list-style-type: none;
+}
+
+.contact-details .children h2{
+    text-decoration: underline;
+}
+
+.contact-details .children footer{
+    margin-top: 100px;
+}
